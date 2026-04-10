@@ -1,0 +1,63 @@
+style.cssbody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: white;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+footer {
+    text-align: center;
+    background: #0d6efd;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}button {
+    background: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: darkgreen;
+    }
